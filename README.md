@@ -10,4 +10,4 @@ your hmtl index.html
 <script src="/js/4load.js" async data-modules="[{src: '/js/myjavascript.min.js', async: true}]"></script>
 ```
 
-The myjavascript asset will load async and add to bottom of body tag. You can refer a cdn too.
+The myjavascript asset will load async and add the new tag to bottom of body tag. You can refer a cdn too.
