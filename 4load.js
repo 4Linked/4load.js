@@ -11,7 +11,5 @@ for(var i=0;i<modules.length;i++){
   console.log(modules[i])
   tag.src = modules[i]['src']
   tag.async= modules[i]['async'] ? false : true
-  //tag.appendChild(document.createTextNode(code));
   document.body.appendChild(tag);
-  console.log('here')
 }
