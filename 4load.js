@@ -1,6 +1,3 @@
-
-
-
 var cs = document.currentScript;
 var modules = cs.getAttribute('data-modules')
 var modules = JSON.parse(JSON.stringify(eval("(" + modules + ")")))
